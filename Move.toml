@@ -1,0 +1,16 @@
+[package]
+name = "ckmt"
+version = "1.0.0"
+authors = []
+
+[addresses]
+ckmt = '0xb8d0244b4ae651296bbb48917141cee64eab6ced9c6acd90bbbb6c26a17ed06b'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
